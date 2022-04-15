@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico/Pacifico-Regular.woff2') format('woff2'),
+        url('../fonts/Pacifico/Pacifico-Regular.woff') format('woff');
+    font-weight: 400;
+}
