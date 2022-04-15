@@ -41,6 +41,41 @@
     font-display: swap;
 }
 
-p {
-    font-family: 'Libre Frankli';
+/* Core styles */
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header styles */
+.main-header {
+    border: 1px solid red;
+}
+
+.main-header .main-brand__text {
+    font-family: 'Pacifico', Arial, sans-serif;
+    color: #000;
+    font-size: 32px;
+}
+
+.main-navigation__items a {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6C6C6C;
+    font-size: 12px;
+}
+
+.main-navigation__items li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.main-navigation__items a.active {
+    color: #AC1313;
 }
