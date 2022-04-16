@@ -56,26 +56,49 @@ html {
 
 /* Header styles */
 .main-header {
-    border: 1px solid red;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-.main-header .main-brand__text {
-    font-family: 'Pacifico', Arial, sans-serif;
-    color: #000;
+.navbar .navbar-brand {
+    font-family: 'Pacifico';
+    font-weight: 400;
     font-size: 32px;
+    color: #000;
 }
 
-.main-navigation__items a {
+.navbar-light .navbar-nav .nav-link {
+    font-family: "Poppins", Arial, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #6C6C6C;
     font-size: 12px;
+    color: #6C6C6C;
 }
 
-.main-navigation__items li:not(:last-child) {
-    margin-right: 40px;
+.navbar-nav .nav-item:not(:last-child) {
+    margin-right: 24px;
 }
 
-.main-navigation__items a.active {
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #AC1313;
+}
+
+.buy-cart {
+    font-size: 14px;
+    color: #000;
+}
+
+.cart-icon {
+    border-left: 1px solid #EBEBEB;
+    margin-left: 10px;
+    margin-right: 6px;
+    padding-left: 16px;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+    padding: 0.25rem 0.50rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.05rem;
 }
