@@ -55,6 +55,10 @@ html {
 }
 
 /* Header styles */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
 .main-header {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
 }
@@ -101,4 +105,53 @@ html {
 
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0.05rem;
+}
+
+/* Hero style */
+#hero {
+    background: url('../assets/image/hero-main-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 127px 0;
+}
+
+.info .intro {
+    color:#D77474;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.info .title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.info .shape {
+    position: relative;
+}
+
+.shape img {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+
+.hero-text {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    color: #6C6C6C;
+}
+
+.info .btn{
+    background-color: #AC1313;
+    border-radius: 0px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 60px;
+
 }
