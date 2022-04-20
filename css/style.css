@@ -184,3 +184,20 @@ body {
 #product .intro {
     margin-bottom: 40px;
 }
+
+/* Pottery styles */
+#pottery .img-wrapper {
+    height: 220px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+#pottery .img-wrapper img {
+    position: absolute;
+    top: -50%;
+    left: 100px;
+}
+
+#pottery .container .row {
+    padding: 122px 0;
+}
