@@ -54,6 +54,37 @@ html {
     scroll-behavior: smooth;
 }
 
+.intro {
+    color:#D77474;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+}
+
+.section-text {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.section-subtitle {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    max-width: 324px;
+    margin-bottom: 26px;
+}
+
 /* Header styles */
 body {
     font-family: "Poppins", Arial, sans-serif;
@@ -114,28 +145,17 @@ body {
     padding: 127px 0;
 }
 
-.info .intro {
-    color:#D77474;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 2px;
-}
-
-.info .title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-}
-
-.info .shape {
+.shape {
     position: relative;
 }
 
 .shape img {
     position: absolute;
-    top: -10px;
-    left: 5px;
+    top: -20px;
+}
+
+.shape {
+    margin-right: 50px;
 }
 
 .hero-text {
@@ -154,4 +174,13 @@ body {
     padding: 10px 20px;
     margin-top: 60px;
 
+}
+
+/* Product styles*/
+#product {
+    padding: 120px 0;
+}
+
+#product .intro {
+    margin-bottom: 40px;
 }
