@@ -42,6 +42,10 @@
 }
 
 /* Core styles */
+html {
+    scroll-behavior: smooth;
+}
+
 li {
     list-style-type: none;
 }
@@ -94,7 +98,7 @@ html {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 10px 20px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 /* Header styles */
@@ -199,4 +203,23 @@ body {
 
 #collection .row div img {
     width: 100%;
+}
+
+#collection .product-name {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #6C6C6C;
+    padding-top: 15px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#collection .product-price {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DBDBDB;
+    text-align: left;
 }
