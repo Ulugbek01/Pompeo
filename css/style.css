@@ -123,7 +123,7 @@ body {
 }
 
 .navbar .navbar-brand {
-    font-family: 'Pacifico';
+    font-family: 'Pacifico', "Poppins";
     font-weight: 400;
     font-size: 32px;
     color: #000;
@@ -272,4 +272,59 @@ body {
     padding: 12px 40px;
     outline: none;
     border: 1px solid #EBEBEB;
+}
+
+/* Footer styles */
+#footer {
+    background-color: rgba(219, 219, 219, 0.1);
+    padding-top: 90px;
+}
+
+.footer-logo {
+    font-family: 'Pacifico', "Poppins";
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+}
+
+.footer-text {
+    max-width: 340px;
+    font-family: 'Libre Franklin', "Poppins";
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+    margin: 30px auto 60px;
+}
+
+#footer .icon-name {
+    margin: 10px 0 20px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#footer .contact-info {
+    font-family: 'Libre Franklin', "Poppins";
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.footer-line {
+    color: #DBDBDB;
+}
+
+.copyright-text {
+    font-family: 'Libre Franklin', "Roboto";
+    font-size: 14px;
+    line-height: 22px;
+    color: #6C6C6C;
+}
+
+.copyright-text .marked {
+    color: #000;
+    font-weight: 600;
 }
