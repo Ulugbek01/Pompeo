@@ -235,3 +235,22 @@ body {
     border-bottom: 1px solid #DBDBDB;
     text-align: left;
 }
+
+/* New Collection styles */
+#new-collection {
+    background: url('../assets/image/new-collection.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.new-collection__text {
+    font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.new-collection__text .marked {
+    text-decoration: underline;
+    color: #AC1313;
+}
